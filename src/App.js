@@ -33,7 +33,7 @@ class App extends Component {
                 }
             }
         };
-        request.open("GET", "/greet", true);
+        request.open("GET", "/greeter", true);
         request.send();
     }
 }
